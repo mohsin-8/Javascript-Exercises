@@ -11,6 +11,5 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 // " You only live once, but if you do it right, once is enough." — Mae West.
 
 var qoute = document.getElementById("qoute");
-var author = "Mae West";
 
-qoute.innerText = `${author} once said, “You only live once, but if you do it right, once is enough.”`;
+qoute.innerText = `Mae West once said, “You only live once, but if you do it right, once is enough.”`;
