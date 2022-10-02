@@ -8,6 +8,5 @@ Print the name once, so the whitespace around the name
 is displayed. Then print the name after striping the white spaces.
 */
 
-let myName = " \tMohsin Ali Khan\n ";
-document.write("Answer in console");
+let myName = " \n\n\tMohsin Ali Khan\n\t ";
 console.log(myName);

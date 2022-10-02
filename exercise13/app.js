@@ -11,24 +11,18 @@ so you need to send out a new set of invitations. You’ll have to think of some
 • Print a second set of invitation messages, one for each person who is still in your list.
 */
 
-const guestList = ["Mohsin", "Ali", "Khan"];
+let oldPersonsList = ["Mohsin", "Ali", "Khan"];
 
-guestList.map((guest) => {
-  //   console.log(`Hey! ${guest}, we are planing dinner tonight`);
+console.log("Ali is not comming");
 
-  document.write(`Hey! ${guest}, we are planing dinner tonight` + "<br />");
+let modifiedPersonsList = oldPersonsList.map((person) => {
+  if (person !== "Ali") return person;
+  return "Ibad";
 });
 
-document.write(
-  "<br />" + (guestList[2] = `khan is not coming today`) + "<br /> <br />"
-);
-
-guestList.pop();
-guestList.push("Obaid");
-console.log(guestList);
-
-guestList.map((guest) => {
-  //   console.log(`Hey! ${guest}, we are planing dinner tonight`);
-
-  document.write(`Hey! ${guest}, we are planing dinner tonight` + "<br />");
+modifiedPersonsList.map((person) => {
+  console.log(`Hey! ${person} , would you like be at my place for dinner?`);
+  document.write(
+    `Hey! ${person} , would you like be at my place for dinner?` + "<br />"
+  );
 });
