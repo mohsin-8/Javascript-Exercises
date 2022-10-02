@@ -1,0 +1,40 @@
+.sidebarMainDiv {
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  right: 428px;
+}
+.sub_Div {
+  width: 0px;
+  padding: 15px;
+  background: transparent;
+  background-color: #000;
+  position: absolute;
+  z-index: 111;
+  left: 144px;
+  top: 10px;
+  visibility: hidden;
+  overflow: hidden;
+  transition: all ease 0.7s;
+}
+
+.sidebar_btn {
+  position: relative;
+}
+
+.sidebar_btn button {
+  transform: rotate(-90deg);
+  width: 246px;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  z-index: 111;
+  top: 114px;
+  right: -532px;
+  transition: all ease 0.5s;
+}
+
+.sidebar_content {
+  position: relative;
+}
