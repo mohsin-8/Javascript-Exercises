@@ -11,7 +11,7 @@ let countries = [
   "Pakistan",
   "Italy",
   "Germany",
-  "USA",
+  "United States of America",
   "Netherland",
   "Azerbaijan",
   "Cyprus",
